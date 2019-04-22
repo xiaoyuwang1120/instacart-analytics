@@ -1,7 +1,7 @@
 ---
 layout: post
-title: A blog post with an image
-subtitle: Subtitle goes here
+title: About Topic
+subtitle: Selected Reason & Why it is Important?
 bigimg: /img/path.jpg
 ---
 
