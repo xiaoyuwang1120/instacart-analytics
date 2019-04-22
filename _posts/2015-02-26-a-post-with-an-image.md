@@ -2,7 +2,7 @@
 layout: post
 title: About Topic
 subtitle: Selected Reason & Why it is Important?
-bigimg: /img/path.jpg
+bigimg: /img/started.jpg
 ---
 
 The motivation behind it quite simple: 
