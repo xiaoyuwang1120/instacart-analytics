@@ -1,27 +1,12 @@
 ---
 layout: post
-title: Example how to use markdown
-subtitle: Each post also has a subtitle
+title: About the Data 
+subtitle: A Sample of 3 Million Grocery Orders
 ---
 
-You can write regular [markdown](http://en.wikipedia.org/wiki/Markdown) here and Jekyll will automatically convert it to a nice webpage.
+The dataset is provided as-is for non-commercial use, and can be downloaded from S3 at: https://www.instacart.com/datasets/grocery-shopping-2017 
 
-**Here is some bold text**
+The dataset is a relational set of files describing customers' orders over time. The dataset is anonymized and contains a sample of over 3 million grocery orders from more than 200,000 Instacart users. For each user, we provide between 4 and 100 of their orders, with the sequence of products purchased in each order. We also provide the week and hour of day the order was placed, and a relative measure of time between orders. 
 
-## Here is a secondary heading
-
-Here's a code chunk:
-
-~~~
-x <- 5 + 10
-print(x)
-~~~
-
-And here is some code with syntax highlighting
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3);
-```
+“The Instacart Online Grocery Shopping Dataset 2017”, 
+Accessed from https://www.instacart.com/datasets/grocery-shopping-2017
