@@ -18,10 +18,7 @@ baseurl: "/instacart-analytics"
 title: Instacart Market Basket Analysis
 
 # Short description of your site
-description: Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your 
-personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers 
-review your order and do the in-store shopping and delivery for you. Instacart is challenging us to use this anonymized 
-data on customer orders over time to predict which previously purchased products will be in a user’s next order. 
+description: Instacart, a grocery ordering and delivery app, aims to make it easy to fill your refrigerator and pantry with your personal favorites and staples when you need them. After selecting products through the Instacart app, personal shoppers review your order and do the in-store shopping and delivery for you. Instacart is challenging us to use this anonymized data on customer orders over time to predict which previously purchased products will be in a user’s next order. 
 
 
 # --- Navigation bar options --- #
