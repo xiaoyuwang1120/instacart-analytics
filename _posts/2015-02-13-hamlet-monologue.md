@@ -1,41 +1,12 @@
 ---
 layout: post
-title: To be
-subtitle: ... or not to be?
+title: About Data
+subtitle: 3 million grocery orders
 ---
 
-To be, or not to be--that is the question:
-Whether 'tis nobler in the mind to suffer
-The slings and arrows of outrageous fortune
-Or to take arms against a sea of troubles
-And by opposing end them. To die, to sleep--
-No more--and by a sleep to say we end
-The heartache, and the thousand natural shocks
-That flesh is heir to. 'Tis a consummation
-Devoutly to be wished. To die, to sleep--
-To sleep--perchance to dream: ay, there's the rub,
-For in that sleep of death what dreams may come
-When we have shuffled off this mortal coil,
-Must give us pause. There's the respect
-That makes calamity of so long life.
-For who would bear the whips and scorns of time,
-Th' oppressor's wrong, the proud man's contumely
-The pangs of despised love, the law's delay,
-The insolence of office, and the spurns
-That patient merit of th' unworthy takes,
-When he himself might his quietus make
-With a bare bodkin? Who would fardels bear,
-To grunt and sweat under a weary life,
-But that the dread of something after death,
-The undiscovered country, from whose bourn
-No traveller returns, puzzles the will,
-And makes us rather bear those ills we have
-Than fly to others that we know not of?
-Thus conscience does make cowards of us all,
-And thus the native hue of resolution
-Is sicklied o'er with the pale cast of thought,
-And enterprise of great pitch and moment
-With this regard their currents turn awry
-And lose the name of action. -- Soft you now,
-The fair Ophelia! -- Nymph, in thy orisons
-Be all my sins remembered.
+The dataset is provided as-is for non-commercial use, and can be downloaded from S3 at: https://www.instacart.com/datasets/grocery-shopping-2017 
+
+The dataset is a relational set of files describing customers' orders over time. The dataset is anonymized and contains a sample of over 3 million grocery orders from more than 200,000 Instacart users. For each user, we provide between 4 and 100 of their orders, with the sequence of products purchased in each order. We also provide the week and hour of day the order was placed, and a relative measure of time between orders. 
+
+“The Instacart Online Grocery Shopping Dataset 2017”, 
+Accessed from https://www.instacart.com/datasets/grocery-shopping-2017
