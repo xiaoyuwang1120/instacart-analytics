@@ -1,13 +1,18 @@
 ---
 layout: page
-title: Getting started
-subtitle: How to use Beautiful Jekyll
-bigimg: /img/start.jpg
+title: Exploratory Data Analysis
+subtitle:
+bigimg: /img/grocery.jpg
 ---
 
-**Beautiful Jekyll** is a ready-to-use template to make help you create an awesome Jekyll or GitHub Pages website quickly. 
+EDA process mainly contains three aspects: 
+1. analysis from users aspect; 2. analysis from products aspect; 3. analysis from users*products aspect
 
-To learn how you can use **Beautiful Jekyll** to create your website in minutes, go to the [Beautiful Jekyll GitHub page](https://github.com/daattali/beautiful-jekyll#readme).
+
+1.From users aspect, considering below features:
+1).	How many orders did they make?
+2).	How many orders in each weekday? in each hour of a day?
+3).	How many orders were given after how many days?
 
 
 <div class="get-started-wrap">
