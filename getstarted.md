@@ -2,22 +2,22 @@
 layout: page
 title: Exploratory Data Analysis
 subtitle:
-bigimg: /img/grocery.jpg
+bigimg: /img/list.jpg
 ---
 
 EDA process mainly contains three aspects: 
-##1. analysis from users aspect; 
-##2. analysis from products aspect; 
-##3. analysis from users*products aspect
+
+1. analysis from **users** aspect; 
+2. analysis from **products** aspect; 
+3. analysis from **users * products** aspect
 
 
 
-1.From users aspect, considering below features:
+##1.From **users** aspect, considering below features:
 
-
-1).	How many orders did they make?
-2).	How many orders in each weekday? in each hour of a day?
-3).	How many orders were given after how many days?
+a.	How many orders did they make?
+b.	How many orders in each weekday? in each hour of a day?
+c.	How many orders were given after how many days?
 
 
 <div class="get-started-wrap">
