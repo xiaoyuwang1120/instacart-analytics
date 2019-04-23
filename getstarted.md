@@ -13,7 +13,7 @@ EDA process mainly contains three aspects:
 
 
 
-##1.From **users** aspect, considering below features:
+1.From **users** aspect, considering below features:
 
 a.	How many orders did they make?
 
@@ -22,16 +22,8 @@ b.	How many orders in each weekday? in each hour of a day?
 c.	How many orders were given after how many days?
 
 
-<div class="get-started-wrap">
-  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
-</div>
-<br/>
 
-## Overview of steps required
-
-There are only three simple steps, so using **Beautiful Jekyll** is *literally* as easy as 1-2-3 :)    
-
-Here is a 40-second video showing how to get started, with the specific steps below.  For a more complete installation guide, [visit the Beautiful Jekyll page](https://github.com/daattali/beautiful-jekyll#readme).
+## a.	How many orders did they make?
 
 
 <div class='tableauPlaceholder' id='viz1556060299271' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;D1&#47;D1-Orders&#47;useridorderid&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='D1-Orders&#47;useridorderid' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;D1&#47;D1-Orders&#47;useridorderid&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='filter' value='publish=yes' /></object></div>
