@@ -6,10 +6,15 @@ bigimg: /img/grocery.jpg
 ---
 
 EDA process mainly contains three aspects: 
-1. analysis from users aspect; 2. analysis from products aspect; 3. analysis from users*products aspect
+##1. analysis from users aspect; 
+##2. analysis from products aspect; 
+##3. analysis from users*products aspect
+
 
 
 1.From users aspect, considering below features:
+
+
 1).	How many orders did they make?
 2).	How many orders in each weekday? in each hour of a day?
 3).	How many orders were given after how many days?
