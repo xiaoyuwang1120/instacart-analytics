@@ -16,7 +16,9 @@ EDA process mainly contains three aspects:
 ##1.From **users** aspect, considering below features:
 
 a.	How many orders did they make?
+
 b.	How many orders in each weekday? in each hour of a day?
+
 c.	How many orders were given after how many days?
 
 
