@@ -13,7 +13,7 @@ EDA process mainly contains three aspects:
 
 
 
-1. First let's start analyzing from **users** aspect, considering below features:
+1.First let's start analyzing from **users** aspect, considering below features:
 
 
 ## a.	How many orders did they make?
