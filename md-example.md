@@ -27,7 +27,7 @@ user_fgl=pd.DataFrame(user_fgl)
 user_fgl['user_id']=user_fgl.index
 user_fgl.columns=['user_fgl','user_id']
 ```
-4．	The number of products each order in average
+4．	The number of products in each order on average
 ```
 product_num_everytime=product_num_everytime.groupby('user_id')['product_num_everytime'].mean()
 product_num_everytime=pd.DataFrame(product_num_everytime)
@@ -48,7 +48,7 @@ num_distinct_prodct=pd.DataFrame(num_distinct_prodct)
 num_distinct_prodct['user_id']=num_distinct_prodct.index
 num_distinct_prodct.columns=['num_distinct_prodct','user_id']
 ```
-7．	Last order reorder ratio
+7． reorder ratio of the last order
 ```
 data2_last_order=data2.groupby('user_id')['order_number'].max()
 data2_last_order=pd.DataFrame(data2_last_order)
@@ -61,11 +61,48 @@ data2_last_order=pd.DataFrame(data2_last_order)
 data2_last_order['user_id']=data2_last_order.index
 data2_last_order.columns=['last_order_reorderd','user_id']
 ```
-
-What if I just paste the HTML for a plotly plot?
-
-We can do it with a line of markdown that looks like this (without the slashes - I haven't solved that problem just yet...):
+Based on products aspect with **product_id** as primary key, construct data_all2
+1.	the number of orders and its ratio in total orders
 ```
-\{\% include jupyter-basic_bar.html \%\}
+product_of_order_num=data2.groupby('product_id')['order_id'].count()
+product_of_order_num=pd.DataFrame(product_of_order_num)
+product_of_order_num['product_of_order_num']=product_of_order_num.index
+product_of_order_num.columns=['product_of_order_num','product_id']
 ```
-{% include jupyter-basic_bar.html %}
+2.	the number of ordered users
+```
+product_of_user_num=data2.groupby('product_id')['user_id'].apply(f1)
+product_of_user_num=pd.DataFrame(product_of_user_num)
+product_of_user_num['product_of_user_num']=product_of_user_num.index
+product_of_user_num.columns=['product_of_user_num','product_id']
+```
+3.	the number of reorders
+```
+product_of_second_order_num=data2[data2.reordered==1].groupby('product_id')['order_id'].count()
+product_of_second_order_num=pd.DataFrame(product_of_second_order_num)
+product_of_second_order_num['product_of_second_order_num']=product_of_second_order_num.index
+product_of_second_order_num.columns=['product_of_second_order_num','product_id']
+```
+4.	the number of reordered users
+```
+product_of_second_user_num=data2[data2.reordered==1].groupby('product_id')['user_id'].apply(f1)
+product_of_second_user_num=pd.DataFrame(product_of_second_user_num)
+product_of_second_user_num['product_of_second_user_num']=product_of_second_user_num.index
+product_of_second_user_num.columns=['product_of_second_user_num','product_id']
+```
+5.	product reorder ratio
+```
+product_fgl=data2.groupby('product_id')['reordered'].mean()
+product_fgl=pd.DataFrame(product_fgl)
+product_fgl['product_id']=product_fgl.index
+product_fgl.columns=['product_fgl','product_id']
+```
+6.	add to cart order
+```
+product_location=data2.groupby('product_id')['add_to_cart_order'].mean()
+product_location=pd.DataFrame(product_location)
+product_location['product_id']=product_location.index
+product_location.columns=['product_location','product_id']
+```
+
+
