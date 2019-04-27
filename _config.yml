@@ -34,9 +34,10 @@ navbar-links:
     - EDA from User Aspect: "getstarted"
     - EDA from Product Aspect: "featured-users"
     - EDA from User & Product Aspect: "up"
-  Conclusion:
-    - Example of a Markdown page: "md-example"
-    - Example of an HTML page: "html-example"
+  Model:
+    - Feature Selection: "md-example"
+    - Model & Performance: "html-example"
+    - Conclusion: "conclusion.md"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
 # --- Footer options --- #
