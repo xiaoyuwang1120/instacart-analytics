@@ -14,7 +14,7 @@ Based on users & products, construted features
 
 Before constructing these features, we need to specify **positive and negative** examples for more reasonable classification. Also, we need to include negative examples in training set. 
 
-**Positive and Negative examples?
+**Positive and Negative examples?**
 
 a.	Creating data2, merge all six files 
 b.	Creating data3, deleted all users' last orders from data2
