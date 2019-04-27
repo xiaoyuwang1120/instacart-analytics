@@ -62,28 +62,28 @@ data2_last_order['user_id']=data2_last_order.index
 data2_last_order.columns=['last_order_reorderd','user_id']
 ```
 Based on products aspect with **product_id** as primary key, construct data_all2
-1.	the number of orders and its ratio in total orders
+1.	the number of orders for products
 ```
 product_of_order_num=data2.groupby('product_id')['order_id'].count()
 product_of_order_num=pd.DataFrame(product_of_order_num)
 product_of_order_num['product_of_order_num']=product_of_order_num.index
 product_of_order_num.columns=['product_of_order_num','product_id']
 ```
-2.	the number of ordered users
+2.	the number of ordered users for products
 ```
 product_of_user_num=data2.groupby('product_id')['user_id'].apply(f1)
 product_of_user_num=pd.DataFrame(product_of_user_num)
 product_of_user_num['product_of_user_num']=product_of_user_num.index
 product_of_user_num.columns=['product_of_user_num','product_id']
 ```
-3.	the number of reorders
+3.	the number of reordered times for products
 ```
 product_of_second_order_num=data2[data2.reordered==1].groupby('product_id')['order_id'].count()
 product_of_second_order_num=pd.DataFrame(product_of_second_order_num)
 product_of_second_order_num['product_of_second_order_num']=product_of_second_order_num.index
 product_of_second_order_num.columns=['product_of_second_order_num','product_id']
 ```
-4.	the number of reordered users
+4.	the number of reordered users for products
 ```
 product_of_second_user_num=data2[data2.reordered==1].groupby('product_id')['user_id'].apply(f1)
 product_of_second_user_num=pd.DataFrame(product_of_second_user_num)
@@ -97,7 +97,7 @@ product_fgl=pd.DataFrame(product_fgl)
 product_fgl['product_id']=product_fgl.index
 product_fgl.columns=['product_fgl','product_id']
 ```
-6.	add to cart order
+6.	add to cart order of products
 ```
 product_location=data2.groupby('product_id')['add_to_cart_order'].mean()
 product_location=pd.DataFrame(product_location)
