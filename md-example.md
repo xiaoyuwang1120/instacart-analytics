@@ -1,17 +1,28 @@
 ---
 layout: page
-title: Markdown-based page example
-subtitle: Subtitle goes here
+title: Feature Engineering
 bigimg: /img/reorder.jpg
 ---
 
-## Here is where we can insert an image:
+Based on user aspect with user_id as primary key, construct data_all1
 
-![GW Data Science logo](/img/gwdsp.png)
+1．	Reorder times
 
-## How about a link?
+```
+gmcs=orders_prior.groupby(['user_id'])['order_id'].count()
+gmcs=pd.DataFrame(gmcs)
+gmcs['user_id']=gmcs.index
+gmcs.columns=['gmcs','user_id']
+```
+2．	Reorder time interval
+3．	Reorder ratio
+4．	The number of products each order in average
+5．	The number of products in total
+6．	The number of distinct products
+7．	Last order reorder ratio
+8．	Time of last order/reorder ratio
+9．	The number of products of last order/the number of average products
 
-And of course some text, and maybe [a link to https://datasci.columbian.gwu.edu/](https://datasci.columbian.gwu.edu/)
 
 ## Or some code?
 
