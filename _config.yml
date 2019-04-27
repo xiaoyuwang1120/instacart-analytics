@@ -37,7 +37,7 @@ navbar-links:
   Model:
     - Feature Selection: "md-example"
     - Model & Performance: "html-example"
-    - Conclusion: "conclusion.md"
+    - Conclusion: "conclusion"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
 # --- Footer options --- #
