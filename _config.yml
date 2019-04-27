@@ -33,7 +33,7 @@ navbar-links:
   EDA & Visualization:
     - EDA from User Aspect: "getstarted"
     - EDA from Product Aspect: "featured-users"
-    - EDA from User * Product Aspect: "userproduct"
+    - EDA from User * Product Aspect: "user product"
   Conclusion:
     - Example of a Markdown page: "md-example"
     - Example of an HTML page: "html-example"
