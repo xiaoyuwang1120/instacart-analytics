@@ -7,6 +7,6 @@ bigimg: /img/list.jpg
 
 EDA process mainly contains three aspects: 
 
-Next, let's analyze from **products** aspect; 
+Last, let's analyze from **user * products** aspect; 
 
-## a. The distribution of department for all products?
+## a. The
