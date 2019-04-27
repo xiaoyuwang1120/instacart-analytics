@@ -31,9 +31,9 @@ title: Instacart Market Basket Analysis
 navbar-links:
   Homepage: ""
   EDA & Visualization:
-    - Getting started: "getstarted"
-    - Other sites that use this template: "featured-users"
-    - External link to Beautiful Jekyll Template page: "https://github.com/daattali/beautiful-jekyll#readme"
+    - EDA from User Aspect: "getstarted"
+    - EDA from Product Aspect: "featured-users"
+    - EDA from User * Product Aspect: "https://github.com/daattali/beautiful-jekyll#readme"
   Conclusion:
     - Example of a Markdown page: "md-example"
     - Example of an HTML page: "html-example"
