@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Exploratory Data Analysis 
+title: Train & Test
 subtitle:
 bigimg: /img/grocery.jpg
 ---
