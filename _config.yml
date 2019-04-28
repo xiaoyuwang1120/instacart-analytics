@@ -37,7 +37,7 @@ navbar-links:
   Model:
     - Feature Selection: "md-example"
     - Train & Test: "traintest"
-    - Model & Performance: "html-example"
+    - Model & Performance: "performance"
     - Conclusion: "conclusion"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
