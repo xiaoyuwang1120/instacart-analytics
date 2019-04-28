@@ -54,8 +54,27 @@ Then, we calculate these features both on positive examples and negative example
 ![label0](/img/label0.png)
 
 
+**Train & Test:**
+```
+data_label0_new=pd.merge(data_label0_new,data_all1,on='user_id',how='left')
+data_label0_new=pd.merge(data_label0_new,data_all2,on='product_id',how='left')
 
+data_label1_new=pd.merge(data_label1_new,data_all1,on='user_id',how='left')
+data_label1_new=pd.merge(data_label1_new,data_all2,on='product_id',how='left')
+```
+data_label1_new(Positive Examples)
+data_label0_new(Negative examples) 
+data_all1(user_id as primary key)
+data_all2 (product_id as primary key)
 
+data_label1_new 2139788 order records
+data_label0_new 3519197 non-order records
+
+**Random Sampling**
+```
+data_label_new=data_label0_new.append(data_label1_new)
+X_train,X_test,y_train,y_test = train_test_split(data_label_new,y,test_size=1000000,random_state=1)
+```
 
 
 
