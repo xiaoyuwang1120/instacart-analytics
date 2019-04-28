@@ -44,3 +44,13 @@ Then, we calculate these features both on positive examples and negative example
 3.	What are the first orders and last orders of users?
 4.	How many days do users not reorder these products?
 5.	What are the reorder ratios of these products?
+
+![label1](/img/label1.png)
+![label0](/img/label0.png)
+
+
+
+
+
+
+
