@@ -39,13 +39,18 @@ for i in user_id_all:
 data_label0.columns=['user_id','product_id']
 ```
 Then, we calculate these features both on positive examples and negative examples
-1.	How many orders do users order these products?
-2.	How many orders do users not reorder these products?
-3.	What are the first orders and last orders of users?
-4.	How many days do users not reorder these products?
-5.	What are the reorder ratios of these products?
+1.	How many orders do users order these products? and the ratio? (order_num_buy_the_profuct,bl)
+2.	How many orders do users not reorder these products? (order_num_bot_buy_the_product)
+3.	What are the first orders and last orders of users? (first_but_the_product, last_buy_the_product)
+4.	How many days do users not reorder these products? (days_not_buy_the_product)
+5.	What are the reorder ratios of these products? (bl)
 
+Positive Examples 
 ![label1](/img/label1.png)
+
+
+
+Negative Examples
 ![label0](/img/label0.png)
 
 
