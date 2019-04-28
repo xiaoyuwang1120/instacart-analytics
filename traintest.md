@@ -38,3 +38,9 @@ for i in user_id_all:
     data_label0=data_label0.append(a)
 data_label0.columns=['user_id','product_id']
 ```
+Then, we calculate these features both on positive examples and negative examples
+1.	How many orders do users order these products?
+2.	How many orders do users not reorder these products?
+3.	What are the first orders and last orders of users?
+4.	How many days do users not reorder these products?
+5.	What are the reorder ratios of these products?
