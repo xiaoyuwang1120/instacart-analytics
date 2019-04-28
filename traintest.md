@@ -45,12 +45,12 @@ Then, we calculate these features both on positive examples and negative example
 4.	How many days do users not reorder these products? (days_not_buy_the_product)
 5.	What are the reorder ratios of these products? (bl)
 
-Positive Examples 
+**Positive Examples**
 ![label1](/img/label1.png)
 
 
 
-Negative Examples
+**Negative Examples**
 ![label0](/img/label0.png)
 
 
