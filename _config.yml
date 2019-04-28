@@ -35,8 +35,8 @@ navbar-links:
     - EDA from Product Aspect: "featured-users"
     - EDA from User & Product Aspect: "up"
   Model:
-    - Feature Selection: "md-example"
-    - Feature Selection II: "traintest"
+    - Feature Engineering: "md-example"
+    - Feature Engineering II: "traintest"
     - Model & Performance: "performance"
     - Conclusion: "conclusion"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
