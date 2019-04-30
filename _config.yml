@@ -31,13 +31,13 @@ title: Instacart Market Basket Analysis
 navbar-links:
   Homepage: ""
   EDA & Visualization:
-    - EDA from User Aspect: "getstarted"
-    - EDA from Product Aspect: "featured-users"
-    - EDA from User & Product Aspect: "up"
+    - User Specific: "getstarted"
+    - Product Specific: "featured-users"
+    - User&Product: "up"
   Model:
-    - Feature Engineering: "md-example"
-    - Feature Engineering II: "traintest"
-    - Model & Performance: "performance"
+    - Feature Transformed: "md-example"
+    - Preparation for Modeling: "traintest"
+    - Model Performance: "performance"
     - Conclusion: "conclusion"
   About me: "https://www.linkedin.com/school/george-washington-university/about/"
 
