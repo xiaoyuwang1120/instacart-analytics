@@ -37,3 +37,7 @@ LogisticRegression(C=1.0, class_weight=None, dual=False, fit_intercept=True,
 ```
 **accuracy**
 accuracy: 0.749889
+
+
+Here is the feature importance of XGBoost,
+![label0](/img/11.png)
