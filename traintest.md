@@ -20,7 +20,8 @@ Before constructing these features, we need to specify **positive and negative**
 
 Positive Samples: last orders of all users 
 Negative Samples: non-reordered products from last orders
-
+<br>
+<br>
 For non-reordered products in all users' last orders:
 Since the reorder ratio of last order is 0.6, we selected 70% products from previous orders of each user, and 30% from all products. Merged together data as negative examples.
 ```
