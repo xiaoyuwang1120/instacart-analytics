@@ -66,8 +66,8 @@ data_label0_new(Negative examples)
 data_all1(user_id as primary key)
 data_all2 (product_id as primary key)
 
-data_label1_new 2139788 order records
-data_label0_new 3519197 non-order records
+data_label1_new 2139788 reorder records
+data_label0_new 3519197 non-reorder records
 
 **Random Sampling**
 ```
