@@ -26,7 +26,7 @@ First let's start analyzing from **users** aspect, considering below features:
 <script type='text/javascript'> var divElement = document.getElementById('viz1556060299271');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
 
 
-
+<br>
 
 ## b.	How many distinct users?
 
@@ -35,7 +35,7 @@ First let's start analyzing from **users** aspect, considering below features:
 
 
 
-
+<br>
 
 ## c.	How many orders in each weekday?
 
@@ -43,7 +43,7 @@ First let's start analyzing from **users** aspect, considering below features:
 <script type='text/javascript'>var divElement = document.getElementById('viz1556061911453');var vizElement = divElement.getElementsByTagName('object')[0];vizElement.style.width='100%';vizElement.style.height=(divElement.offsetWidth*0.75)+'px';var scriptElement = document.createElement('script');scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js'; vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
 
-
+<br>
 
 
 
@@ -54,7 +54,7 @@ First let's start analyzing from **users** aspect, considering below features:
 
 
 
-
+<br>
 
 
 ## e.	How many orders were given after how many days?
@@ -63,5 +63,5 @@ First let's start analyzing from **users** aspect, considering below features:
 <script type='text/javascript'>var divElement = document.getElementById('viz1556244181196');var vizElement = divElement.getElementsByTagName('object')[0];if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='627px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='627px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                 vizElement.parentNode.insertBefore(scriptElement, vizElement);</script>
 
 
-
+<br>
 
