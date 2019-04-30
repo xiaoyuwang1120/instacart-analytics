@@ -7,7 +7,7 @@ bigimg: /img/started.jpg
 
 <strong>Why this topic?</strong>
 
-**The purpose of this project was to use anonymized data on customer orders over time to predict which previously purchased product will be in a user’s next order. **
+**The purpose of this project was to use anonymized data on customer orders over time to predict which previously purchased product will be in a user’s next order.**
 
 The technology driven business model of Instacart boosts of delivering groceries to customers in as little as an hour, making it one of the most promising and futuristic company of the United States which is based on sharing economy model.
 
