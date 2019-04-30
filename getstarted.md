@@ -10,14 +10,14 @@ EDA process mainly contains three aspects:
 1. analysis from **users** aspect; 
 2. analysis from **products** aspect; 
 3. analysis from **users * products** aspect
+<br>
+<br>
 
-
-
-
+<br>
 
 
 First let's start analyzing from **users** aspect, considering below features:
-
+<br>
 
 ## a.	How many orders did they make?
 
