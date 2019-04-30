@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Train & Test
+title: Feature Engineering
 subtitle:
 bigimg: /img/grocery.jpg
 ---
@@ -16,15 +16,13 @@ Before constructing these features, we need to specify **positive and negative**
 
 **Positive and Negative examples?**
 
-a.	Creating data2, merge all six files 
-b.	Creating data3, deleted all users' last orders from data2
-c.	Creating data4, selected all users' last orders from data2 
 
-Positive Samples: data4
-Negative Samples: data_label10
 
-Considering non-reordered products in all users' last orders. 
-Since the reorder ratio of last order is 0.6, we selected 70% products from previous orders of each user, and 30% from all products. Merged together as negative examples.
+Positive Samples: last orders of all users 
+Negative Samples: non-reordered products from last orders
+
+For non-reordered products in all users' last orders:
+Since the reorder ratio of last order is 0.6, we selected 70% products from previous orders of each user, and 30% from all products. Merged together data as negative examples.
 ```
 user_id=[]
 product_id=[]
