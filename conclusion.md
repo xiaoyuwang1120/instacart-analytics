@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Exploratory Data Analysis
+title:conclusion
 subtitle:
 bigimg: /img/conclusion.png
 ---
